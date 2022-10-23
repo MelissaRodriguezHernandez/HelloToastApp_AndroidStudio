@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#221F1F"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="29dp">
+
+        <Button
+            android:id="@+id/button_toast"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/diplomata"
+            android:text="TOAST"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/number_count"
+            android:layout_width="match_parent"
+            android:layout_height="505dp"
+            android:autoSizeTextType="uniform"
+            android:background="#00BCD4"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#080C22"
+            android:textSize="96sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/button_count"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:fontFamily="@font/diplomata"
+            android:text="COUNT"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
